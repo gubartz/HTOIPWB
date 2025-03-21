@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="estilo.css">
+    <title>Álcool ou Gasolina?</title>
+</head>
+
+<body>
+    <form method="post"
+          action="processar.php">
+        <h2>Álcool ou Gasolina?</h2>
+        <label for="preco_gasolina">Preço da Gasolina</label>
+        <input type="number"
+               name="preco_gasolina"
+               id="preco_gasolina"
+               step=".01" />
+        <label for="preco_alcool">Preço do Álcool</label>
+        <input type="number"
+               name="preco_alcool"
+               id="preco_alcool"
+               step=".01" />
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+
+</html>

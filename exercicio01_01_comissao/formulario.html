@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="processar.php" method="post">
+        <label for="valor_vendido">Valor Vendido</label>
+        <input
+            type="number"
+            name="valor_vendido"
+            id="valor_vendido" />
+        <br />
+        <label for="comissao">Comissão:</label>
+        <select name="comissao" id="comissao">
+            <option value="5">5%</option>
+            <option value="10">10%</option>
+            <option value="15">15%</option>
+        </select>
+        <br />
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>
