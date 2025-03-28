@@ -1,0 +1,94 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f4f4f4;
+}
+
+form,
+p.resultado {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 50%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2,
+p.resultado {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+span.resultado {
+    background-color: red;
+    color: #fff;
+}
+
+p.resultado,
+span.resultado {
+    font-size: x-large;
+}
+
+p.resultado {
+    color: black;
+
+}
+
+table {
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+}
+
+div.resultado {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
